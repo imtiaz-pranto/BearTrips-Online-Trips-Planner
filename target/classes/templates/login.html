@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"  th:href="@{/css/topnav.css}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+    <title>Login</title>
+</head>
+<body>
+
+
+<div th:class="topnav">
+    <h3>  <a class="active" href="#home">Home</a>
+        <a href="/login">Login</a>
+        <a href="/signup">Sign Up</a>
+        <a href="/contact">Contact</a>
+    </h3>
+</div>
+
+</form>
+    <div class="w3-display-container">
+        <img class="" th:src="@{/images/home-banner.png}" width="1920">
+        <div class="w3-display-topmiddle w3-container">
+
+            <div class="w3-container" id="contact" style="margin-top:75px">
+                <h1 class="w3-xxxlarge w3-text-red"><b>Login</b></h1>
+                <hr style="width:50px;border:5px solid red" class="w3-round">
+                <form action="/login" method="post" >
+                    <div class="w3-section">
+                        <label>Name</label>
+                        <input class="w3-input w3-border" type="text" id="username"  name="username" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Password </label>
+                        <input class="w3-input w3-border" type="text" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Login</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="w3-display-topright w3-container">Top Right</div>
+    </div>
+
+
+</body>
+</html>

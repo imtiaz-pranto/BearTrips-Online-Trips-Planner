@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Contact Us</title>
+</head>
+<body>
+
+<div class="w3-display-container">
+    <img class="" th:src="@{/images/home-banner.png}" width="1920">
+    <div class="w3-display-topmiddle w3-container">
+        <div class="w3-container"  style="margin-top:75px">
+            <div class="w3-container" id="contact" style="margin-top:75px">
+                <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+                <hr style="width:50px;border:5px solid red" class="w3-round">
+                <p> Fill out the form and fill us in with the details :) We love meeting new people!</p>
+                <form action="/contact" target="_blank">
+                    <div class="w3-section">
+                        <label>Name</label>
+                        <input class="w3-input w3-border" type="text" name="Name" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Email</label>
+                        <input class="w3-input w3-border" type="text" name="Email" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Message</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required>
+                    </div>
+                    <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="w3-display-topright w3-container">Top Right</div>
+</div>
+
+
+
+
+</body>
+</html>

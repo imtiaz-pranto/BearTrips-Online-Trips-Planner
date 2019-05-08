@@ -1,0 +1,39 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"  th:href="@{/css/topnav.css}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+    <title>User Dashboard</title>
+</head>
+<body>
+<div class="w3-display-container">
+    <img class="" th:src="@{/images/home-banner.png}" width="1920">
+    <div class="w3-display-topleft w3-container">
+
+        <div class="w3-container">
+
+            <div class="w3-panel w3-card w3-purple">
+                    <a  style="text-shadow:1px 1px 0 #444" href="/packages">Packages</a>
+            </div>
+            <div class="w3-panel w3-card w3-purple" th:size="44px">
+        <a style="text-shadow:1px 1px 0 #444" href="/packages">Packages</a>
+            </div>
+                <div class="w3-panel w3-card w3-purple">
+                    <a   style="text-shadow:1px 1px 0 #444" href="/resorts">Resorts
+                    </a></div>
+                <div class="w3-panel w3-card w3-purple">
+                    <a  style="text-shadow:1px 1px 0 #444" href="/places">Places</a>
+                </div>
+                <div class="w3-panel w3-card w3-purple">
+                    <a  style="text-shadow:1px 1px 0 #444" href="/contact">Contact</a>
+                </div>
+
+    </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>

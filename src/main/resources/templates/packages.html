@@ -1,0 +1,42 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"  th:href="@{/css/topnav.css}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+    <title>Packages - BearTrips</title>
+
+</head>
+<body>
+
+<div class="w3-display-container">
+    <img class="" th:src="@{/images/home-banner.png}" width="1920">
+    <div class="w3-display-topmiddle w3-container">
+
+        <div class="w3-container" id="contact" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-red"><b>Available Packages</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+        </div>
+        <div class="w3-display w3-container">
+            <img class="" th:src="@{/images/t1.png}" width="240">
+            <div class="w3-round w3-blue">
+                <a  href="/book">Book Now!!!</a>
+            </div>
+        </div>
+    </br>
+        <div class="w3-display w3-container">
+            <img class="" th:src="@{/images/t2.png}" width="240">
+            <div class="w3-round w3-blue">
+                <a href="/book">Book Now!!!</a>
+            </div>
+        </div>
+    </div>
+    <div class="w3-display-topright w3-container">Top Right</div>
+</div>
+
+
+</body>
+</html>
